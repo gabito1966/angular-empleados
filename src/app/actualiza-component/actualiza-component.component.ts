@@ -24,7 +24,7 @@ export class ActualizaComponentComponent implements OnInit {
     this.indice = this.route.snapshot.params['id'];
 
     let empleado: Empleado = this.empleadosService.encontrarEmpleado(
-      this.indice;
+      this.indice
     );
 
     this.cuadroNombre = empleado.nombre;
