@@ -10,13 +10,13 @@ import { ServicioEmpleadosService } from '../servicio-empleados.service';
 export class CaracteristicasEmpleadoCComponent implements OnInit{
 
   @Output() caracteristicasEmpleados = new EventEmitter<string>();
-  
-  
+
+
 
   //constructor(private miServicio:ServicioEmpleadosService){  }
 
   ngOnInit(): void {
-      
+
   }
 
   agregaCaracteristicas(value: string) {
